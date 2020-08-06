@@ -1,0 +1,61 @@
+*{
+	padding:0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: lightsalmon;
+}
+  
+.wrapper {
+    align-items: center;
+    flex-direction:column;
+    margin:auto;
+    width: fit-content;
+}
+.flex{
+	display: flex;
+}
+input{
+    width: 500px;
+    height: 31px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+textarea{
+width: 575px;
+padding: 5px;
+}
+
+button{
+    margin-top: 15px;
+    width: 84px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+/*  RESPONSIVE
+   ========================================================================= 
+  
+   /* Móviles en horizontal o tablets en vertical
+      ------------------------------------------------------------------------- */
+   @media (max-width: 767px) { 
+        input{
+            width: 90%;
+        }
+        textarea{
+            width: 90%;
+        }
+    }
+    
+   /* Móviles en vertical
+      ------------------------------------------------------------------------- */
+   @media (max-width: 480px) {
+    input{
+        width: 90%;
+    }
+    textarea{
+        width: 90%;
+    }    
+}
